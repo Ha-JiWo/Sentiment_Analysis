@@ -1,5 +1,19 @@
 positive_words = {
-    
+    'happy', 'joyful', 'delighted', 'elated', 'ecstatic', 'thrilled', 'overjoyed', 'jubilant', 'gleeful', 'merry', 'jolly', 'cheerful', 'upbeat', 'buoyant', 'radiant',
+    'sunny', 'lighthearted', 'blithe', 'blissful', 'euphoric', 'exhilarated', 'jovial', 'mirthful', 'exultant', 'rapturous', 'chirpy', 'jaunty', 'perky', 'content',
+    'satisfied', 'fulfilled', 'serene', 'tranquil', 'peaceful', 'calm', 'relaxed', 'at ease', 'placid', 'mellow', 'restful', 'comfortable', 'untroubled', 'undisturbed',
+    'composed', 'harmonious', 'centered', 'easygoing', 'grateful', 'thankful', 'appreciative', 'indebted', 'moved', 'touched', 'overwhelmed', 'beholden', 'loving', 'affectionate',
+    'warm', 'tender', 'caring', 'compassionate', 'kind-hearted', 'fond', 'adoring', 'devoted', 'romantic', 'amorous', 'doting', 'sympathetic', 'empathetic', 'gentle',
+    'sweet', 'hopeful', 'optimistic', 'sanguine', 'positive', 'confident', 'encouraged', 'reassured', 'expectant', 'bright', 'rosy', 'promising', 'bullish', 'forward-looking',
+    'enthusiastic', 'eager', 'passionate', 'zealous', 'fervent', 'ardent', 'excited', 'animated', 'energetic', 'lively', 'vibrant', 'spirited', 'vivacious', 'dynamic',
+    'pumped', 'raring', 'fired up', 'proud', 'confident', 'self-assured', 'empowered', 'accomplished', 'dignified', 'triumphant', 'fulfilled', 'assertive', 'assured',
+    'interested', 'curious', 'fascinated', 'intrigued', 'engrossed', 'captivated', 'absorbed', 'spellbound', 'riveted', 'inquisitive', 'engaged', 'admiring', 'awed',
+    'amazed', 'astonished', 'wonderstruck', 'reverent', 'impressed', 'dazzled', 'speechless', 'marveling', 'amused', 'entertained', 'delighted', 'playful', 'mischievous',
+    'whimsical', 'tickled', 'humorous', 'witty', 'light-spirited', 'brave', 'courageous', 'determined', 'resolute', 'resilient', 'steadfast', 'undaunted', 'bold', 'valiant',
+    'tenacious', 'gritty', 'happiness', 'joy', 'delight', 'bliss', 'ecstasy', 'euphoria', 'elation', 'jubilation', 'glee', 'merriment', 'cheerfulness', 'contentment',
+    'satisfaction', 'fulfillment', 'serenity', 'peace', 'tranquility', 'love', 'affection', 'warmth', 'tenderness', 'compassion', 'gratitude', 'thankfulness', 'appreciation',
+    'hope', 'optimism', 'enthusiasm', 'excitement', 'passion', 'zeal', 'fervor', 'pride', 'confidence', 'amusement', 'wonder', 'awe', 'inspiration', 'motivation', 'relief',
+    'exhilaration', 'radiance', 'lightheartedness', 'gladness', 'joviality', 'exuberance', 'buoyancy'
 }
 
 negative_words = {
