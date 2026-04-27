@@ -15,16 +15,14 @@ def analyze_sentiment_en(text):
     while i<n:
         word=words[i]
         if word in positive_words:
-            negated=(i>0 and words[i-1] in negation_words)
             score+=-1 if negated else 1
         elif word in negative_words:
-            negated=(i>0 and words[i-1] in negation_words)
             score+=1 if negated else -1
         i+=1
     
-    if score>0:
+    if score>1:
         return"Positive"
-    elif score<0:
+    elif score<-1:
         return"Negative"
     else:
         return"Neutral"
