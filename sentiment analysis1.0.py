@@ -3,7 +3,10 @@ positive_words = {
 }
 
 negative_words = {
-    
+    'bad','upset','lonely','depressed','miserable','gloomy','heartbroken','sorrowful','hopeless','helpless','anxious',
+    'nervous','worried','tense','panicked','frightened','scared','terrified','horrified','uneasy','angry','mad','furious','irritated','annoyed','bitter','resentful'
+    ,'jealous','envious','hostile','frustrated','disappointed','discouraged','confused','lost','tired','exhausted','bored','dull','cranky','moody','selfish','arrogant',
+    'insecure','guilty','ashamed','embarrassed','desperate','repulsive','vile'
 }
 
 def analyze_sentiment_en(text):
