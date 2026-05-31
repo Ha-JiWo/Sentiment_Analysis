@@ -11,11 +11,11 @@ file_path = r'C:/Users/19293/Desktop/CS183/IMDB Dataset.csv'
 try:
     # Try UTF-8 first
     df = pd.read_csv(file_path, encoding='utf-8')
-    print("Successfully read with UTF-8 encoding! Ho Ho Ho! ")
+    print("Read with UTF-8 encoding")
 except UnicodeDecodeError:
     # Fallback to latin-1 if UTF-8 fails
     df = pd.read_csv(file_path, encoding='latin-1')
-    print("UTF-8 failed, read with latin-1 encoding. Merry Christmas! ")
+    print("UTF-8 failed, read with latin-1 encoding.")
 
 # 2. Check column names (adjust according to actual data)
 print("Column names in the CSV:", df.columns.tolist())
