@@ -10,14 +10,14 @@ The model is trained on the IMDB dataset and served through a friendly web inter
 
 ##  Features
 
-- Machine learning based sentiment classification
-- Handles three classes: positive, negative, neutral
-- Clean web interface with:
+1.Machine learning based sentiment classification
+2.Handles three classes: positive, negative, neutral
+3.Clean web interface with:
   - Dataset distribution chart
   - Per‑class precision/recall/F1 metrics
   - Real‑time prediction with confidence scores (softmax‑like probability bars)
-- Built with `scikit-learn`, `pandas`, `Flask`
-- Automatically balances classes to improve neutral review detection
+4.Built with `scikit-learn`, `pandas`, `Flask`
+5.Automatically balances classes to improve neutral review detection
 
 ## Prerequisites
 - Python 3.6 or higher
