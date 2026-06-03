@@ -1,5 +1,21 @@
 # Sentiment_Analysis
 CS183 T25
+File: sentiment analysis 2.0
+Responsible team number: Hua Jing
+Description: Backend development
+
+File: sentiment analysis 2.0
+Responsible team number: Hongwei Lin
+Description: Frontend development
+
+File: README
+Responsible team number: Xinyan Sun
+Description: Writing the README, editing the presentation video, and testing the program.
+
+File: IMDB dataset
+Responsible team number: Zecheng Ren
+Description: Providing the dataset and recording the presentation video.
+
 
 ## The introduction of English Sentiment Analyzer
 
@@ -24,7 +40,6 @@ The model is trained on the IMDB dataset and served through a friendly web inter
 5.Automatically balances classes to improve neutral review detection
 
 
-
 ## Prerequisites
 - Python 3.6 or higher
 
@@ -38,11 +53,12 @@ The model is trained on the IMDB dataset and served through a friendly web inter
    pip install pandas numpy scikit-learn flask
    ```
 
+
 ## Usage
 
 1.Run the application
 
-In the terminal, navigate to the folder containing sentiment_app.py and execute:
+In the terminal, execute:
 
 ```bash
 python sentiment analysis 2.0.py
