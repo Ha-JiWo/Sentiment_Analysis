@@ -24,7 +24,7 @@ The model is trained on the IMDB dataset and served through a friendly web inter
 
 ## Installation
 1. **Clone or download** the project files.  
-   Make sure the main script (e.g. `sentiment_app.py`) and the IMDB dataset (`IMDB Dataset.csv`) are in the same folder.
+   Make sure the IMDB dataset (`IMDB Dataset.csv`) is in C:/Users/19293/Desktop/CS183/IMDB Dataset.csv.
 
 2. **Install required libraries**:
 
