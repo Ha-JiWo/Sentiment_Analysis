@@ -19,6 +19,8 @@ The model is trained on the IMDB dataset and served through a friendly web inter
 4.Built with `scikit-learn`, `pandas`, `Flask`
 5.Automatically balances classes to improve neutral review detection
 
+
+
 ## Prerequisites
 - Python 3.6 or higher
 
