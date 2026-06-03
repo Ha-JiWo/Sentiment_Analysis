@@ -16,6 +16,7 @@ The model is trained on the IMDB dataset and served through a friendly web inter
   - Dataset distribution chart
   - Per‑class precision/recall/F1 metrics
   - Real‑time prediction with confidence scores (softmax‑like probability bars)
+
 4.Built with `scikit-learn`, `pandas`, `Flask`
 5.Automatically balances classes to improve neutral review detection
 
