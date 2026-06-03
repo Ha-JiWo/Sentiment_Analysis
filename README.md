@@ -1,7 +1,7 @@
 # Sentiment_Analysis
 CS183 T25
 
-# English Sentiment Analyzer
+## English Sentiment Analyzer
 
 A lightweight sentiment analysis web application for English product reviews.  
 It uses **TF‑IDF vectorization** and a **RidgeClassifier** with balanced class weights to classify reviews into `positive`, `negative`, or `neutral`.  
