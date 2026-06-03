@@ -34,7 +34,7 @@ The model is trained on the IMDB dataset and served through a friendly web inter
 
 ## Usage
 
-**Run the application**
+1.Run the application
 
 In the terminal, navigate to the folder containing sentiment_app.py and execute:
 
@@ -77,6 +77,6 @@ Test accuracy: 0.8896
 Label distribution: {'positive': 24999, 'negative': 24999, 'neutral': 3398}
 ============================================================
 ```
-Open the web interface
+2.Open the web interface
 
 Go to http://127.0.0.1:5000 or http://localhost:5000 in your browser.
