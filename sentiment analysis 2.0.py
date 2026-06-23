@@ -27,7 +27,7 @@ valid_labels = ['positive', 'negative', 'neutral']
 df = df[df['label'].isin(valid_labels)]
 
 print(f"Data size after filtering: {len(df)}")
-label_counts = df['label'].value_counts().to_dict()
+label_counts = df['label'].value_counts().to_dict() #calculate label counts
 print("Label distribution:", label_counts)
 
 # ============================================================
@@ -38,7 +38,7 @@ stratify_param = df['label'] if min_count >= 2 else None
 
 X_train, X_test, y_train, y_test = train_test_split(
     df['text'], df['label'],
-    test_size=0.2, random_state=42,
+    test_size=0.2, random_state=42,  #80% for training, 20% for testing; 42 is a random seed
     stratify=stratify_param
 )
 
@@ -49,9 +49,9 @@ print(f"Training set size: {len(X_train)}  Test set size: {len(X_test)}")
 # ============================================================
 model = make_pipeline(
     TfidfVectorizer(
-        max_features=5000,
-        sublinear_tf=True,
-        ngram_range=(1, 2),
+        max_features=5000, #Keep the top 5000 words/phrases sorted by frequency
+        sublinear_tf=True,  #Suppress the advantage of high-frequency words to prevent a few of them from dominating the weight
+        ngram_range=(1, 2),  #unigram/bigram
         stop_words='english'
     ),
     RidgeClassifier(alpha=1.0, class_weight='balanced')
